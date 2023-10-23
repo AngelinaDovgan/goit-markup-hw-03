@@ -25,6 +25,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
+
 .container {
     width: 1158px;
     margin-left: auto;
@@ -39,9 +43,19 @@ a {
     justify-content: space-between;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
 .menu {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .logo {
