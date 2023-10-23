@@ -179,6 +179,7 @@ img {
     line-height: 1.2;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .benefits-list {
@@ -233,6 +234,7 @@ img {
     color: #2E2F42;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .second-title {
@@ -315,6 +317,7 @@ img {
 
 .logotype {
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-text {
