@@ -7,15 +7,19 @@ body {
     background-color: #FFFFFF;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 0;
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+    margin: 0;
 }
 
 ul, ol {
-    margin-top: 0;
-    margin-left: 0;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 ul, 
@@ -27,6 +31,8 @@ a {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -45,8 +51,6 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
-    height: 72px;
 }
 
 .page-nav {
@@ -63,6 +67,7 @@ img {
 
 .menu-link {
 padding: 24px 0;
+display: block;
 }
 
 .logo {
@@ -83,6 +88,7 @@ padding: 24px 0;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .menu-link {
@@ -117,8 +123,6 @@ padding: 24px 0;
 
 .main {
     background-color: #2e2f42;
-    width: 1440px;
-    height: 600px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 188px;
@@ -326,8 +330,8 @@ padding: 24px 0;
 }
 
 .logotype {
-    margin-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
